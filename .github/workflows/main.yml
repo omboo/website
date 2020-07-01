@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  accessibility_job:
+    runs-on: ubuntu-latest
+    name: Runs accessibility tests
+    steps:
+    - name: Run a11y tests 
+      id: a11y
+      uses: omboo/a11y-action@v0.1
+      with:
+        urls: 'http://omboo.io'
