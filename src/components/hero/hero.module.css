@@ -1,0 +1,27 @@
+.main {
+  height: 208px;
+}
+
+.heroImage {
+  width: 102px;
+  height: 43px;
+}
+
+.titleContainer {
+    width: 170px;
+}
+
+@media (min-width: 768px) {
+  .heroImage {
+    width: 267px;
+    height: 112px;
+  }
+
+  .main {
+    height: 456px;
+  }
+
+  .titleContainer {
+    width: 356px;
+}
+}

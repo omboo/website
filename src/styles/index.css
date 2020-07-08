@@ -1,0 +1,10 @@
+@tailwind base;
+
+html,
+body {
+  font-family: 'Comfortaa';
+}
+
+@tailwind components;
+
+@tailwind utilities;
