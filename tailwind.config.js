@@ -13,6 +13,9 @@ module.exports = {
       wide: '.025rem',
       wider: '.31rem',
     },
+    colors: {
+      gray: '#4a4c50',
+    },
     fontFamily: {
       display: ['Comfortaa'],
     },
