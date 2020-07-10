@@ -15,6 +15,15 @@
   .main {
     height: 325px;
   }
+
+  .heroImage {
+    width: 157px;
+    height: 66px;
+  }
+
+  .titleContainer {
+    width: 220px;
+  }
 }
 
 @media (min-width: 768px) {
