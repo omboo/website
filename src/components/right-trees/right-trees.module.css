@@ -1,0 +1,39 @@
+.treesContainer {
+  --front-tree-md-width: 92px;
+  --front-tree-lg-width: 115px;
+  position: relative;
+  width: 264px;
+  height: 295px;
+}
+
+.backTrees {
+  position: absolute;
+  width: 264px;
+  height: 295px;
+}
+
+.frontTree {
+  position: absolute;
+  width: var(--front-tree-md-width);
+  height: 132px;
+  bottom: 0;
+  left: calc(50% - var(--front-tree-md-width) / 2);
+}
+
+@media (min-width: 1024px) {
+  .frontTree {
+    width: var(--front-tree-lg-width);
+    height: 166px;
+    left: calc(50% - var(--front-tree-lg-width) / 2);
+  }
+
+  .backTrees {
+    width: 330px;
+    height: 368px;
+  }
+
+  .treesContainer {
+    width: 330px;
+    height: 368px;
+  }
+}

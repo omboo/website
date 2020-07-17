@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="132" viewBox="0 0 92 132">
+    <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 91.2 1.59)">
+        <ellipse cx="42.522" cy="45.576" fill="#ECCCB3" rx="42.522" ry="42.563" transform="matrix(-1 0 0 1 85.044 0)"/>
+        <g stroke="#000" stroke-width=".798" transform="translate(3.797)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M30.848 128.694L30.644 27.721" transform="matrix(-1 0 0 1 61.288 0)"/>
+            <ellipse cx="42.902" cy="42.396" rx="42.902" ry="42.396" transform="matrix(-1 0 0 1 85.803 0)"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.268 40.64L30.235 26.905" transform="matrix(-1 0 0 1 47.396 0)"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.544 63.468L30.184 45.032" transform="matrix(-1 0 0 1 41.676 0)"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12.449 54.404L21.219 35.905" transform="matrix(-1 0 0 1 33.504 0)"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M69.715 55.273L30.341 27.847" transform="matrix(-1 0 0 1 100.513 0)"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M51.482 42.396L49.848 13.045" transform="matrix(-1 0 0 1 101.33 0)"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M68.537 72.444L31.211 61.327" transform="matrix(-1 0 0 1 99.695 0)"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M57.835 65.819L51.508 44.874" transform="matrix(-1 0 0 1 109.501 0)"/>
+        </g>
+    </g>
+</svg>

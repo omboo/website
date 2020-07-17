@@ -1,0 +1,35 @@
+.treesContainer {
+  position: relative;
+  width: 116px;
+}
+
+.backTree {
+  position: absolute;
+  width: 94px;
+  height: 98px;
+  top: -12px;
+  left: 6px;
+}
+
+.frontTrees {
+  position: absolute;
+  width: 116px;
+  height: 94px;
+}
+
+@media (min-width: 768px) {
+  .treesContainer {
+    width: 242px;
+  }
+
+  .frontTrees {
+    width: 242px;
+    height: 178px;
+  }
+
+  .backTree {
+    width: 195px;
+    height: 202px;
+    top: -30px;
+  }
+}
