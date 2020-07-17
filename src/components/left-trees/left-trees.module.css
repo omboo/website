@@ -9,12 +9,16 @@
   height: 98px;
   top: -12px;
   left: 6px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .frontTrees {
   position: absolute;
   width: 116px;
   height: 94px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 @media (min-width: 768px) {

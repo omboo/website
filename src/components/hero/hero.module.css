@@ -5,6 +5,8 @@
 .heroImage {
   width: 134px;
   height: 56px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .titleContainer {
