@@ -11,7 +11,12 @@ export default class MyDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1.0, viewport-fit=cover"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <meta
+            name="description"
+            content="Software that grows with your business."
+          />
+          <link rel="icon" href="/favicon.svg" />
+          <link rel="mask-icon" href="favicon.svg" color="#ffffff" />
           <link
             href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
             rel="stylesheet"
