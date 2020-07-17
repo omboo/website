@@ -1,5 +1,5 @@
 name: Tests
-on: [push,pull_request]
+on: [pull_request]
 jobs:
   accessibility_job:
     runs-on: ubuntu-latest
@@ -8,12 +8,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Install NPM dependencies
-      - uses: bahmutov/npm-install@v1
+        uses: bahmutov/npm-install@v1
       - name: Run build
         run: npm run build
       - name: Run a11y tests
-        uses: omboo/a11y-action@v0.3
+        uses: omboo/a11y-action@master
         with:
           urls: "http://localhost:3000"
           fail-on-error: true
           start-command: "npm start"
+          wait-on: "http://localhost:3000"
