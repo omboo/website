@@ -17,3 +17,4 @@ jobs:
           urls: "http://localhost:3000"
           fail-on-error: true
           start-command: "npm start"
+          wait-on: "http://localhost:3000"
