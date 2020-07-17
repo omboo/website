@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
             content="Software that grows with your business."
           />
           <link rel="icon" href="/favicon.svg" />
-          <link rel="mask-icon" href="favicon.svg" color="#ffffff" />
+          <link rel="mask-icon" href="favicon-safari.svg" color="#000000" />
           <link
             href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
             rel="stylesheet"
