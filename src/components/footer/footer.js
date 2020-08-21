@@ -1,29 +1,38 @@
 import React from 'react';
 
+import trees from './trees.svg';
+import bPending from './b-pending.png';
+import bPending2x from './b-pending@2x.png';
+import bPending3x from './b-pending@3x.png';
+import github from './github.png';
+import linkedin from './linkedin.svg';
 import styles from './footer.module.css';
 
 export default function Footer() {
   return (
-    <footer className="mt-24 flex justify-between">
-      <div className="pl-6 pb-6 flex items-end">
+    <footer className={styles.root}>
+      <img className={styles.trees} src={trees} alt="" />
+      <div className={styles.socialContainer}>
         <a
           href="https://www.linkedin.com/company/omboo/"
           target="_blank"
           rel="noreferrer"
         >
-          <img className="w-8 mr-4" src="/linkedin.svg" alt="linkedin" />
+          <img className="w-8 mr-4" src={linkedin} alt="linkedin" />
         </a>
         <a href="https://github.com/omboo" target="_blank" rel="noreferrer">
-          <img className="w-8" src="/github.png" alt="github" />
+          <img className="w-8" src={github} alt="github" />
         </a>
       </div>
-      <div>
-        <img
-          className={`${styles.bPending} pr-6 pb-6`}
-          src="/b-pending.png"
-          alt="B Pending"
-        />
-      </div>
+      <img
+        className={styles.bPending}
+        src={bPending}
+        srcSet={`${bPending2x} 2x, ${bPending3x} 3x`}
+        alt="B Pending Company"
+      />
+      <h2 className="text-base md:text-5xl font-bold tracking-wide md:tracking-wider">
+        hello@omboo.io
+      </h2>
     </footer>
   );
 }
