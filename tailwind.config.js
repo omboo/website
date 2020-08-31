@@ -1,4 +1,7 @@
 module.exports = {
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   purge: ['./src/components/**/*.js', './src/pages/**/*.js'],
   theme: {
     screens: {
@@ -18,6 +21,7 @@ module.exports = {
     },
     fontFamily: {
       display: ['Comfortaa'],
+      body: ['Poppins'],
     },
   },
 };

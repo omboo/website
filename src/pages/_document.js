@@ -8,17 +8,13 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-          />
-          <meta
             name="description"
             content="Software that grows with your business."
           />
           <link rel="icon" href="/favicon.svg" />
           <link rel="mask-icon" href="favicon-safari.svg" color="#000000" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Poppins:wght@300;500&display=swap"
             rel="stylesheet"
           />
         </Head>

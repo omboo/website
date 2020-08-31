@@ -1,0 +1,46 @@
+.blob {
+  position: absolute;
+  width: 100%;
+  max-width: 460px;
+  right: -30px;
+  z-index: -1;
+}
+
+.illustration {
+  width: 138px;
+  height: 85px;
+}
+
+.titleMarker {
+  height: 35px;
+  border: solid 2px #b6df68;
+  width: 2px;
+  position: absolute;
+  left: -20px;
+  top: -8px;
+  border-radius: 4px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .illustration {
+    width: 244px;
+    height: 151px;
+  }
+
+  .titleMarker{
+    height: 40px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .illustration {
+    width: 306px;
+    height: 189px;
+  }
+
+  .titleMarker{
+    height: 45px;
+  }
+}
