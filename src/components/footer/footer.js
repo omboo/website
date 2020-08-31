@@ -30,7 +30,7 @@ export default function Footer() {
         srcSet={`${bPending2x} 2x, ${bPending3x} 3x`}
         alt="B Pending Company"
       />
-      <h2 className="text-base md:text-5xl font-bold tracking-wide md:tracking-wider">
+      <h2 className="font-body text-base md:text-5xl font-medium tracking-wide md:tracking-wider">
         hello@omboo.io
       </h2>
     </footer>

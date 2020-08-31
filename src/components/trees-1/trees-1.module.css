@@ -6,25 +6,14 @@
   position: relative;
 }
 
-.frontTree {
-  transition: all 0.5s ease;
-  -webkit-user-drag: none;
-  user-select: none;
-  position: absolute;
-  width: 15px;
-  height: 28px;
-  left: 2px;
-  bottom: 0px;
-}
-
-.backTree {
+.trees {
   transition: all 0.5s ease;
   -webkit-user-drag: none;
   user-select: none;
   position: absolute;
   width: 41px;
   height: 38px;
-  left: 0px;
+  left: 2px;
   bottom: 0px;
 }
 
@@ -33,15 +22,10 @@
     width: 115px;
   }
 
-  .frontTree {
-    width: 39px;
-    height: 82px;
-    left: 7px;
-  }
-
-  .backTree {
-    width: 115px;
+  .trees {
+    width: 119px;
     height: 110px;
+    left: 7px;
   }
 }
 
@@ -50,13 +34,8 @@
     width: 145px;
   }
 
-  .frontTree {
-    width: 49px;
-    height: 103px;
-  }
-
-  .backTree {
-    width: 143px;
-    height: 136px;
+  .trees {
+    width: 148px;
+    height: 138px;
   }
 }

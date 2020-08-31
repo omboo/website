@@ -41,8 +41,8 @@
   }
 
   .trees {
-    width: 77px;
-    height: 90px;
+    width: 89px;
+    height: 92px;
     left: 30px;
     top: -25px;
   }
@@ -63,6 +63,11 @@
 @media (min-width: 1024px) {
   .root {
     height: 300px;
+  }
+
+  .trees {
+    width: 100px;
+    height: 110px;
   }
 
   .socialContainer {

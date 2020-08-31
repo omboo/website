@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/favicon.svg" />
           <link rel="mask-icon" href="favicon-safari.svg" color="#000000" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Poppins:wght@300;500&display=swap"
             rel="stylesheet"
           />
         </Head>

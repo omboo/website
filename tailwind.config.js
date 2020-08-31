@@ -21,6 +21,7 @@ module.exports = {
     },
     fontFamily: {
       display: ['Comfortaa'],
+      body: ['Poppins'],
     },
   },
 };

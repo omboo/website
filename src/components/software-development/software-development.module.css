@@ -27,6 +27,10 @@
     width: 244px;
     height: 151px;
   }
+
+  .titleMarker{
+    height: 40px;
+  }
 }
 
 /* Desktop */
@@ -34,5 +38,9 @@
   .illustration {
     width: 306px;
     height: 189px;
+  }
+
+  .titleMarker{
+    height: 45px;
   }
 }

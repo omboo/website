@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="149" height="139" viewBox="0 0 149 139">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#B6DF68" d="M141.128 88.41c6.27-23.21 0-82.41-69.42-82.41S-5.103 62.93 2.288 88.41c7.392 25.479 131.613 26.754 138.84 0z" transform="translate(0 1)"/>
+        <g stroke="#000">
+            <g stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.814 35.004L13.398 21.215" transform="translate(0 1) translate(5) translate(17.534 30.128) matrix(-1 0 0 1 33.93 0)"/>
+                <path d="M80.472 42.075L73.056 28.286" transform="translate(0 1) translate(5) translate(17.534 30.128)"/>
+                <path d="M38.382 14.578L53.194 3.576" transform="translate(0 1) translate(5) translate(17.534 30.128) matrix(-1 0 0 1 91.79 0)"/>
+                <path d="M53.763 26.146L77.085 11.402" transform="translate(0 1) translate(5) translate(17.534 30.128)"/>
+                <path d="M0.457 56.067L53.486 29.283" transform="translate(0 1) translate(5) translate(17.534 30.128) matrix(-1 0 0 1 53.885 0)"/>
+                <path d="M53.7 56.067L106.729 29.283M53.283 105.029L53.831 0" transform="translate(0 1) translate(5) translate(17.534 30.128)"/>
+            </g>
+            <path d="M140.844 82.733C147.1 59.433 140.844 0 71.564 0S-5.093 57.154 2.284 82.733c7.376 25.58 131.348 26.86 138.56 0z" transform="translate(0 1) translate(5)"/>
+        </g>
+        <g>
+            <path fill="#9CBE5A" d="M24 83.92c13.255 0 24 2.456 24-19.707C48 42.049 30.936 3 24 3S0 42.05 0 64.213c0 22.163 10.745 19.706 24 19.706z" transform="translate(0 1) translate(9 35)"/>
+            <g stroke="#000">
+                <path d="M24.343 81.237c13.445 0 24.344 2.466 24.344-19.784S31.379 0 24.343 0C17.308 0 0 39.202 0 61.453c0 22.25 10.899 19.784 24.343 19.784z" transform="translate(0 1) translate(9 35) translate(2)"/>
+                <g stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.093 78.869L14.099.035M14.114 35.056L23.346 21.36" transform="translate(0 1) translate(9 35) translate(2) translate(10.257 22.078)"/>
+                    <path d="M0.073 59.17L11.91 38.52" transform="translate(0 1) translate(9 35) translate(2) translate(10.257 22.078) matrix(-1 0 0 1 12.021 0)"/>
+                    <path d="M16.171 59.178L28.008 38.527M6.273 49.143L11.382 41.063M22.352 48.096L21.751 38.52" transform="translate(0 1) translate(9 35) translate(2) translate(10.257 22.078)"/>
+                    <path d="M4.798 35.056L14.03 21.36" transform="translate(0 1) translate(9 35) translate(2) translate(10.257 22.078) matrix(-1 0 0 1 18.772 0)"/>
+                    <path d="M14.094 17.112L20.717 7.287" transform="translate(0 1) translate(9 35) translate(2) translate(10.257 22.078)"/>
+                    <path d="M7.411 17.112L14.034 7.287" transform="translate(0 1) translate(9 35) translate(2) translate(10.257 22.078) matrix(-1 0 0 1 21.405 0)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
