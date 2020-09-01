@@ -1,0 +1,15 @@
+name: Send metrics
+on: [push]
+jobs:
+  bundle_check:
+    name: Bundle size metrics
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Install NPM dependencies
+        uses: bahmutov/npm-install@v1
+      - name: Run build and report bundle size
+        env:
+          PT_PROJECT_TOKEN: ${{ secrets.PT_PROJECT_TOKEN }}
+        run: npm run build

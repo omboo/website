@@ -31,6 +31,7 @@
     "tailwindcss": "1.7.6"
   },
   "devDependencies": {
+    "@packtracker/webpack-plugin": "^2.3.0",
     "babel-eslint": "^10.1.0",
     "eslint": "7.7.0",
     "eslint-config-airbnb": "^18.2.0",
@@ -41,6 +42,7 @@
     "eslint-plugin-react-hooks": "4.1.0",
     "husky": "^4.2.5",
     "lint-staged": "10.2.13",
+    "next-compose-plugins": "^2.2.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "2.1.1"
   },
