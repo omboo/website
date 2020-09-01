@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
+import _ from 'lodash';
 
 import '../styles/index.css';
 
 export default function App({ Component, pageProps }) {
+  console.log(_);
   return (
     <>
       <Head>
