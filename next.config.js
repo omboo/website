@@ -1,11 +1,12 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable import/no-dynamic-require */
 /* eslint-disable global-require */
 /* eslint-disable radix */
+const withPlugins = require('next-compose-plugins');
 const PacktrackerPlugin = require('@packtracker/webpack-plugin');
 const withImages = require('next-images');
 
-module.exports = {
-  ...withImages(),
+const nextConfig = {
   target: 'serverless',
   webpack: (config, { isServer }) => {
     if (!isServer && process.env.GITHUB_EVENT_PATH) {
@@ -26,3 +27,5 @@ module.exports = {
     return config;
   },
 };
+
+module.exports = withPlugins([withImages], nextConfig);
