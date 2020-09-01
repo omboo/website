@@ -11,6 +11,9 @@ const nextConfig = {
   webpack: (config, { isServer }) => {
     if (!isServer && process.env.GITHUB_EVENT_PATH) {
       const event = require(process.env.GITHUB_EVENT_PATH);
+
+      console.log(event);
+
       config.plugins.push(
         new PacktrackerPlugin({
           upload: true,
