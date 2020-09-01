@@ -2,7 +2,7 @@ name: Checks
 on: [pull_request]
 jobs:
   bundle_check:
-    name: report
+    name: Bundle size metrics
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
